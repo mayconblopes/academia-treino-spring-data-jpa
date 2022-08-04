@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/academia
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true # https://i.postimg.cc/65ZGSZWZ/Fluxo-Back-end.png
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.format_sql: true
